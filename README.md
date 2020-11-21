@@ -4,11 +4,9 @@
 # 도전과제: 적외선 거리 센서 잡음 필터링
 ​
 ## 영상속 그래프
->파란색 : raw_dist
->
->빨간색 : dist_cali
->
->초록색 : dist_ema
+- 파란색 : raw_dist
+- 빨간색 : dist_cali
+- 초록색 : dist_ema
 ​
 ------------------------------------
 ​
@@ -25,6 +23,8 @@
 ----------------------------------------------
 
 ## ir_distance_filter 예제
-* gist
-​
- > https://gist.github.com/T-WK/715fde5441b68110a239bc1e0eda1db4
+- gist
+ - https://gist.github.com/T-WK/715fde5441b68110a239bc1e0eda1db4
+
+- 실행파일
+ -깃헙에 올려두었습니다.
