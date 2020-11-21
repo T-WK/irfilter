@@ -23,7 +23,7 @@
 ----------------------------------------------
 
 ## ir_distance_filter 예제
-- gist
+- ir_distance_filter함수 gist
 	- https://gist.github.com/T-WK/715fde5441b68110a239bc1e0eda1db4
 
 - 실행파일
