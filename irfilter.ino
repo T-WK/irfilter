@@ -41,7 +41,7 @@ float ir_distence_filter() {
   while (iter < LENGTH)
   {
     dist_list[iter] = 100 + 300.0 / (b - a) * (ir_distance() - a);
-    sum = dist_list[iter];
+    sum += dist_list[iter];
     iter++;
   }
 
@@ -62,7 +62,7 @@ float ir_distence_filter() {
     sum -= dist_list[LENGTH-i];
   }
 
-  float dist_cali = sum/(LENGTH-k_LENGTH);
+  float dist_cali = sum/(LENGTH-2*k_LENGTH);
   
   return alpha*dist_cali + (1-alpha)*dist_ema;
 }
